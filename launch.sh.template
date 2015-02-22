@@ -1,0 +1,13 @@
+#!/bin/bash
+export NODE_ENV=production 
+export SSLCERT=
+export SSLKEY=
+export SSLCA1=
+export SSLCA2=
+export EMAIL=
+export PEMKEY=
+export SPREADSHEETID=
+export WORKSHEETID=
+export PORT=443
+
+pm2 start backend/bin/wwws

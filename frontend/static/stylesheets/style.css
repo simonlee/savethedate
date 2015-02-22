@@ -1,0 +1,107 @@
+body {
+  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  font-size: 230%;
+  font-weight: 400;
+  padding: 5%; 
+  text-align: center;
+  color: #485F8E;
+  background-color: #EFEFEF;
+}
+
+.container {
+  max-width: 480px;
+}
+
+a {
+/*
+  color: #00B7FF;
+*/
+}
+
+h1 {
+  font-family: "Playfair Display", "Times New Roman", Georgia, serif;
+  font-size: 170%;
+  font-weight: medium;
+  text-transform: uppercase;
+  margin-bottom: 2%;
+}
+
+.names {
+  font-family: "Pinyon Script", cursive;
+  text-transform: capitalize;
+  font-size: 200%;
+}
+
+/* invalid form input */
+form input.ng-invalid.ng-touched {
+  background-color: #fffade;
+}
+
+form select.ng-pristine {
+  color: #999;
+}
+
+button, input[type="submit"] {
+  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: #485F8E;
+}
+
+.btn-default:hover {
+  background-color: #fff;
+}
+
+label {
+  display: none;
+}
+
+#greeting {
+  text-transform: uppercase;
+}
+
+.error {
+  text-transform: none;
+  font-size: 50%;
+  padding: 10px;
+}
+
+#monogram {
+  padding: 10% 0 10% 0;
+}
+
+#monogram-left {
+  font-family: "Monsieur La Doulaise", Georgia, serif;
+  font-size: 240%;
+  vertical-align: middle;
+  padding: 0;
+  margin: 0;
+  margin-left: -12%;
+  margin-right: -6%;
+}
+
+#monogram-right {
+  font-family: "Monsieur La Doulaise", Georgia, serif;
+  font-size: 240%;
+  vertical-align: middle;
+  padding: 0;
+  margin: 0;
+  margin-left: -6%;
+}
+
+#monogram-center {
+  font-family: "Monsieur La Doulaise", Georgia, serif;
+  font-size: 400%;
+  vertical-align: middle;
+}
+
+.date {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+#greeting h1 {
+  padding-bottom: 6%;
+}
